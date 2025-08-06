@@ -1,0 +1,363 @@
+:root{
+--Purple-100: hsl(254, 88%, 90%);
+--Purple-500: hsl(256, 67%, 59%);
+
+--Yellow-100: hsl(31, 66%, 93%);
+--Yellow-500: hsl(39, 100%, 71%);
+
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 7%);
+--main-margin:10px;
+--border-riduse:10px;
+--font-family: 'DM Mono',"Open Sans", sans-serif;
+}
+
+
+
+.container{
+    background-color: hsl(0deg 0% 96.08%);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    
+}
+
+
+/* card-1 edit */
+.card-1{
+    grid-column:1/4;
+    grid-row: 1/7;
+    background-color: var(--Yellow-100);
+    border-radius: var(--border-riduse);
+    -webkit-border-radius: var(--border-riduse);
+    -moz-border-radius: var(--border-riduse);
+    -ms-border-radius: var(--border-riduse);
+    -o-border-radius: var(--border-riduse);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin: var(--main-margin);
+    font-family: var(--font-family);
+    line-height: 1;
+}
+.card-1 h2 i{
+    color: var(--Purple-500);
+    font-weight: 400;
+}
+
+.card-1 a img{
+    width: 150px;
+}
+
+
+
+/* card-2 edit */
+.card-2{
+    grid-column: 4/10;
+    grid-row: 1/5;
+    background-color: var(--Purple-500);
+    padding: 8px;
+    margin: var(--main-margin);
+    border-radius:var(--border-riduse) ;
+    -webkit-border-radius:var(--border-riduse) ;
+    -moz-border-radius:var(--border-riduse) ;
+    -ms-border-radius:var(--border-riduse) ;
+    -o-border-radius:var(--border-riduse) ;
+    text-align: center;
+    color: var(--White);
+    font-family: var(--font-family);
+    
+}
+.card-2 h1{
+    font-size: 50px;
+    line-height: 1;
+    margin-top: 20px;
+}
+.card-2 h1 span{
+color: var(--Yellow-500);
+}
+.card-2 .star i {
+    color: var(--Yellow-500);
+}
+.card-2 p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--Purple-100);
+
+}
+
+
+
+/* card-3 edit */
+.card-3
+{
+    grid-column: 10/13;
+    grid-row: 1/9;
+    background-color: var(--Purple-100);
+    font-family: var(--font-family);
+    border-radius:var(--border-riduse) ;
+    -webkit-border-radius:var(--border-riduse) ;
+    -moz-border-radius:var(--border-riduse) ;
+    -ms-border-radius:var(--border-riduse) ;
+    -o-border-radius:var(--border-riduse) ;
+    overflow: hidden;
+    padding: 10px;
+    margin: var(--main-margin);
+}
+.card-3 h3{
+    font-size: 22px;
+    width: 150px;
+    margin-left: 20px;
+    line-height: 1;
+}
+.card-3 p{
+    font-size: 10px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.card-3 .image
+{
+    width: 100%;
+    height: 300px;
+    background-image:url(images/illustration-schedule-posts.jpg);
+    background-size: cover;
+    transform:translate(10%,0) ;
+    -webkit-transform:translate(10%,0) ;
+    -moz-transform:translate(10%,0) ;
+    -ms-transform:translate(10%,0) ;
+    -o-transform:translate(10%,0) ;
+}
+
+
+/* card-4 edit */
+.card-4{
+    grid-column: 4/7;
+    grid-row: 5/9;
+    background-color: var(--White);
+    border-radius: var(--border-riduse);
+    -webkit-border-radius: var(--border-riduse);
+    -moz-border-radius: var(--border-riduse);
+    -ms-border-radius: var(--border-riduse);
+    -o-border-radius: var(--border-riduse);
+    margin: var(--main-margin);
+    overflow: hidden;
+}
+.card-4 .image{
+    background-image: url(images/illustration-multiple-platforms.jpg);
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+    background-color: var(--White);
+    transform: translate(6%,0);
+    -webkit-transform: translate(6%,0);
+    -moz-transform: translate(6%,0);
+    -ms-transform: translate(6%,0);
+    -o-transform: translate(6%,0);
+}
+.card-4 p {
+    line-height: 1;
+    font-size: 22px;
+    margin: 5px 10px 5px 20px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+
+/* card-5 edit */
+.card-5{
+    grid-column: 7/10;
+    grid-row: 5/9 ;
+    background-color: var(--Yellow-500);
+    margin: var(--main-margin);
+    overflow: hidden;
+    border-radius:var(--border-riduse) ;
+    -webkit-border-radius:var(--border-riduse) ;
+    -moz-border-radius:var(--border-riduse) ;
+    -ms-border-radius:var(--border-riduse) ;
+    -o-border-radius:var(--border-riduse) ;
+    padding:20px 20px 0px 20px;
+}
+.card-5 p {
+    
+    font-size: 20px;
+    margin: 0 30px 35px 0;
+    font-weight: 900;
+    font-family: var(--font-family);
+    line-height: 1;
+}
+
+.card-5 .image{
+    background-image: url(images/illustration-consistent-schedule.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 90px;
+    justify-self: center;
+}
+
+
+
+/* card-6 edit */
+.card-6{
+    grid-column: 1/4;
+    grid-row: 7/13;
+    background-color: var(--Yellow-500);
+    margin:var(--main-margin);
+    border-radius: var(--border-riduse);
+    -webkit-border-radius: var(--border-riduse);
+    -moz-border-radius: var(--border-riduse);
+    -ms-border-radius: var(--border-riduse);
+    -o-border-radius: var(--border-riduse);
+    padding: 20px;
+}
+.card-6 h2{
+    width: 150px ;
+    line-height: .8;
+    margin-bottom:30px ;
+}
+.card-6 .image{
+    background-image: url(images/illustration-ai-content.jpg);
+    width: 85%;
+    height: 150px;
+    background-size: contain;
+    justify-self: center;
+}
+
+
+
+/* card-7 edit */
+.card-7{
+    grid-column: 4/7;
+    grid-row: 9/13;
+    background-color: var(--White);
+    margin: var(--main-margin);
+    padding: 10px;
+    border-radius: var(--border-riduse);
+    -webkit-border-radius: var(--border-riduse);
+    -moz-border-radius: var(--border-riduse);
+    -ms-border-radius: var(--border-riduse);
+    -o-border-radius: var(--border-riduse);
+    font-family: var(--font-family);
+}
+
+.card-7 h2{
+    font-size: 50px;
+    
+}
+.card-7 p {
+    justify-self: center;
+    font-size: 14px;
+}
+.card-7 .image{
+    background-image: url(images/illustration-audience-growth.jpg);
+    width: 98%;
+    height: 70px;
+    background-size: cover;
+}
+.card-8{
+    grid-column: 7/13;
+    grid-row: 9/13;
+    background-color: var(--Purple-500);
+    margin: var(--main-margin);
+    border-radius:var(--border-riduse) ;
+    -webkit-border-radius:var(--border-riduse) ;
+    -moz-border-radius:var(--border-riduse) ;
+    -ms-border-radius:var(--border-riduse) ;
+    -o-border-radius:var(--border-riduse) ;
+    padding: 10px;
+    color: var(--White);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+.card-8 .image{
+    background-image: url(images/illustration-grow-followers.jpg);
+    width: 75%;
+    height: 180px;
+    background-size: cover;
+    
+}
+
+.card-8 h2{
+line-height: .8;
+font-size: 30px;
+width: 80%;
+align-self: center;
+}
+
+
+
+@media (max-width:380px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    
+    }
+.card-4{
+    height: 150px;
+}
+
+.card-5 .image{
+    height: 130px;
+}
+
+.card-3 {
+        display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-3 .image{
+            width: 96%;
+        background-size: contain;
+        transform: translate(0, 0);
+        height: 258px;
+        margin-bottom: 10px;
+}
+.card-3 h3 {
+    width: fit-content;
+    margin: 20px 0 20px 0;
+}
+.card-3 p {
+    width: 150px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.card-8 {
+    flex-direction: column;      
+        align-items: center;
+        height: fit-content;
+}
+.card-8 .image{
+    height: 200px;
+}
+.card-8 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.card-7{
+    display: flex
+;
+    flex-direction: column;
+}
+.card-7 p
+{
+    align-self: flex-start;
+}
+.card-7 .image{
+    width: 65%;
+    margin-bottom: 20px;
+}
+.card-6 .image{
+        background-size: cover;
+        width: 150px;
+        /* align-self: start; */
+        position: relative;
+        left: -25%;
+}
+}
