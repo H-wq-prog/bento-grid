@@ -40,7 +40,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 
 
-- Website - [Add your name here](https://buildwithheidi.odoo.com/)
+- Website - (https://buildwithheidi.odoo.com/)
 - Frontend Mentor -(https://www.frontendmentor.io/home)
 - linked in - (https://www.linkedin.com/in/heidiramdan-4199b723a/)
 
