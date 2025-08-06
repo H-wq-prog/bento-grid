@@ -7,7 +7,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot]![](./Screenshot.jpg)
-  - [Links](#links)
+  - [Links](https://github.com/H-wq-prog/bento-grid.git)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
